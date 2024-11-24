@@ -1,17 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saint Jean Le Baptiste NSI</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
+    <title>Mon Site Web</title>
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Métadonnées SEO -->
+    <meta name="description" content="Description de votre site web">
+    <meta name="keywords" content="mots-clés, site web, exemple">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <h1>Bienvenu sur le site qui vous est dédié !</h1>  
+        <section id="accueil">
+            <h1>Bienvenue sur mon site</h1>
+            <p>Contenu de votre page d'accueil</p>
+        </section>
+
+        <section id="apropos">
+            <h2>À propos de nous</h2>
+            <p>Informations sur votre entreprise ou projet</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" placeholder="Votre nom">
+                <input type="email" placeholder="Votre email">
+                <textarea placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
     </main>
-    <script src="index.js"></script>
-  </body>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
